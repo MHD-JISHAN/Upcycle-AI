@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Main styles */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  /* Image Recognition section styles */
+  .image-recognition {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input styles */
+  input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  /* Uploaded image styles */
+  #uploadedImage {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Prediction text styles */
+  #prediction {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
